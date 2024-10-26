@@ -1,0 +1,38 @@
+/* Estilos gerais da página */
+body {
+    font-family: Arial, sans-serif; /* Escolha da fonte */
+    background-color: #f0f0f0; /* Cor de fundo da página */
+    font-size: 16px;
+}
+
+/* Estilo da Calculadora */
+.calculadora {
+    background-color: #d3d3d3; /* Fundo cinza para área da calculadora */
+    padding: 20px;
+    border-radius: 10px; /* Cantos arredondados */
+    width: fit-content;
+    margin: auto;
+}
+
+/* Estilo para o botão */
+.botao-calcular {
+    background-color: #4caf50; /* Cor verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer;
+}
+
+/* Efeito hover para o botão */
+.botao-calcular:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para o resultado */
+.resultado {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
